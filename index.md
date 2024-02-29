@@ -29,7 +29,6 @@ Dean's List
 ## Projects
 
 `Jan. 2024`
-
 <a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
 
 `Jan. 2023 - May  2023`
