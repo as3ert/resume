@@ -26,6 +26,10 @@ Bowen Scholarship
 `2022 - 2023`
 Dean's List
 
+### Coursework
+
+Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Anaylsis of Algorithms, Compiler Construction, etc.
+
 ## Projects
 
 `Jan. 2024`
@@ -39,10 +43,6 @@ __End-to-End Diffusion Model for Referenced-Image Super-Resolution__
 
 `Apr. 2022 - May. 2022`
 __5-Stage Pipelined CPU Implementation__
-
-### Coursework
-
-Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Anaylsis of Algorithms, Compiler Construction, etc.
 
 ## Publication
 
