@@ -1,9 +1,9 @@
 ---
-layout: cv
+layout: resume
 title: Guangxin Zhao's resume
 ---
 # Guangxin Zhao
-Master candidate in Computer Science
+MSc. candidate in Computer Science
 
 <div id="webaddress">
 <a href="https://github.com/as3ert">GitHub: as3ert</a>
