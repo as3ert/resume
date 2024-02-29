@@ -11,7 +11,7 @@ M.Sc candidate in Computer Science
 
 ## Education
 
-`Sept. 2020 - Jun. 2024 (Expected)`
+`Sep. 2020 - Jun. 2024 (Expected)`
 __The Chinese University of Hong Kong, Shenzhen__
 
 `Expected `
@@ -41,20 +41,10 @@ Proceedings Volume 12941, International Conference on Algorithms, High Performan
 ## Research
 
 `Jun. 2023 - Jul. 2023`
-__Algorithms for Game Design__
+__Algorithms for Game Design__ (Leader of a 3-person group)
 
 `Remote`
-Leader of a 3-person group; Supervised by Prof. Bill Nace from Carnegie Mellon University
-
-Utilized Python to develop a hybrid of two uniform maze generation algorithms, Aldous-Broder and Wilson, and locate the best usage ratio through experimentation
-
-Generated mazes of different sizes using Aldous-Broder and Wilson and recorded the execution times 
-
-Calculated the optimal usage ratio by alternating between the two algorithms at critical running phases 
-
-Demonstrated that the performance was better compared to either algorithm by itself when the percentage of visited cells reaches a specific value
-
-Tested the algorithmic ratio on generating larger mazes and tried other maze generation algorithm
+Supervised by Prof. Bill Nace from Carnegie Mellon University
 
 ## Internship
 
@@ -65,24 +55,19 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 Google Play Game Developer Assistant
 
 
-Independently improved ASO (App Store Optimization) for games, such as Rolling Sky and Magic Piano Tiles 4: Pop Songs
+## Projects
 
-Studied the keywords suggestion scheme of Google Play to optimize gaming introduction and short description
+`Jan. 2024`
+<a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
 
-Tested the game levels of Rolling Sky manually and the stability of Magic Piano Tiles 4: Pop Songs using Python
+`Jan. 2023 - May 2023`
+__Database System Implementation with Front-End Integration__
 
-## Occupation
+`Sep. 2022 - Dec. 2022`
+__End-to-End Diffusion Model for Referenced-Image Super-Resolution__
 
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
+`Apr. 2022 - May. 2022`
+__5-Stage Pipelined CPU Implementation__
 
 <!-- ### Footer
 
