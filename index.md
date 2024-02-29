@@ -58,10 +58,11 @@ Google Play Game Developer Assistant
 ## Projects
 
 `Jan. 2024`
+
 <a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
 
-`Jan. 2023 - May 2023`
-__Database System Implementation with Front-End Integration__
+`Jan. 2023 - May  2023`
+<a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
 
 `Sep. 2022 - Dec. 2022`
 __End-to-End Diffusion Model for Referenced-Image Super-Resolution__
