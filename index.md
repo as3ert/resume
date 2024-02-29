@@ -21,10 +21,10 @@ __The Chinese University of Hong Kong, Shenzhen__
 ### Awards
 
 `2020 - 2024`
-Bowen Scholarship
+**Bowen Scholarship**
 
 `2022 - 2023`
-Dean's List
+**Dean's List**
 
 ### Coursework
 
