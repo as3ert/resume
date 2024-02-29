@@ -32,21 +32,21 @@ Computer Architecture, Data Structures, Operating System, Computer Networks, Ima
 
 ## Projects
 
-`Jan. 2024`
+`Jan 2024`
 <a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
 
-`Jan. 2023 - May  2023`
+`Jan 2023 - May 2023`
 <a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
 
-`Sep. 2022 - Dec. 2022`
+`Sep 2022 - Dec 2022`
 __End-to-End Diffusion Model for Referenced-Image Super-Resolution__
 
-`Apr. 2022 - May  2022`
+`Apr 2022 - May 2022`
 __5-Stage Pipelined CPU Implementation__
 
 ## Publication
 
-`Dec. 2023`
+`Dec 2023`
 __A Hybrid Approach to Maze Generation Algorithms__
 
 Co-authors: **Guangxin Zhao**, Hao Gu, and Emma Cai
@@ -54,7 +54,7 @@ Proceedings Volume 12941, International Conference on Algorithms, High Performan
 
 ## Research
 
-`Jun. 2023 - Jul. 2023`
+`Jun 2023 - Jul 2023`
 __Algorithms for Game Design__ (Leader of a 3-person group)
 
 `Remote`
@@ -62,7 +62,7 @@ Supervised by Prof. Bill Nace from Carnegie Mellon University
 
 ## Internship
 
-`Aug. 2022 - Sept. 2022`
+`Aug 2022 - Sept 2022`
 __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 
 `Nanjing, Jiangsu, China`
