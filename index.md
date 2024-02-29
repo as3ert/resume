@@ -41,7 +41,7 @@ Computer Architecture, Data Structures, Operating System, Computer Networks, Ima
 `Sep. 2022 - Dec. 2022`
 __End-to-End Diffusion Model for Referenced-Image Super-Resolution__
 
-`Apr. 2022 - May. 2022`
+`Apr. 2022 - May  2022`
 __5-Stage Pipelined CPU Implementation__
 
 ## Publication
