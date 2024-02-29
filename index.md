@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Guangxin Zhao's Resume
+title: Guangxin Zhao
 ---
 # Guangxin Zhao
 MSc. candidate in Computer Science
@@ -15,30 +15,28 @@ MSc. candidate in Computer Science
 __The Chinese University of Hong Kong, Shenzhen__
 
 - B.Eng in Computer Science and Engineering
-- **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0; Dean's List 2022-2023; Bowen Scholarship
+- **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+### Awards
 
-- Sizar
+`2020 - 2024`
+Bowen Scholarship, *the Chinese University of Hong Kong, Shenzhen*, Guangdong, China
 
-`1667 - death`
-__Trinity College, Cambridge__
+`2022 - 2023`
+Dean's List, *the Chinese University of Hong Kong, Shenzhen*, Guangdong, China
 
-- Fellow
+### Coursework
 
+Computer Architecture, Data Structures, Operating System, Introduction to Multimedia Systems, Computer Networks, Image Processing and Computer Vision, Database System, Fundamental of Artificial Intelligence, Software Engineering, Machine Learning, Parallel Programming, Introduction to Human-Computer Interaction, Optimization, etc.
 
+## Internship
 
-## Awards
+`Aug. 2022 - Sept. 2022`
+Independently improved ASO (App Store Optimization) for games, such as Rolling Sky and Magic Piano Tiles 4: Pop Songs
+Studied the keywords suggestion scheme of Google Play to optimize gaming introduction and short description
+Tested the game levels of Rolling Sky manually and the stability of Magic Piano Tiles 4: Pop Songs using Python
 
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
+## Publication
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
