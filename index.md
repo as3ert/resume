@@ -21,10 +21,10 @@ __The Chinese University of Hong Kong, Shenzhen__
 ### Awards
 
 `2020 - 2024`
-Bowen Scholarship, **CUHK(SZ)**, Shenzhen, Guangdong, China
+Bowen Scholarship
 
 `2022 - 2023`
-Dean's List, **CUHK(SZ)**, Shenzhen, Guangdong, China
+Dean's List
 
 ### Coursework
 
