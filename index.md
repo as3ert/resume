@@ -1,13 +1,12 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Guangxin Zhao's resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Guangxin Zhao
+Master candidate in Computer Science
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="https://github.com/as3ert">GitHub: as3ert</a>
 </div>
 
 
@@ -27,8 +26,11 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`Sept. 2020 - Jun. 2024 (Expected)`
+__The Chinese University of Hong Kong, Shenzhen__
+
+- B.Eng in Computer Science and Engineering
+- **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0; Dean's List 2022-2023; Bowen Scholarship
 
 `June 1661 - now`
 __Trinity College, Cambridge__
