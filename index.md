@@ -50,12 +50,13 @@ __5-Stage Pipelined CPU Implementation__
 __A Hybrid Approach to Maze Generation Algorithms__
 
 Co-authors: **Guangxin Zhao**, Hao Gu, and Emma Cai
+
 Proceedings Volume 12941, International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023); 1294114 (2023) <a href="https://doi.org/10.1117/12.3011553">https://doi.org/10.1117/12.3011553</a>
 
 ## Research
 
 `Jun 2023 - Jul 2023`
-__Algorithms for Game Design__ (Leader of a 3-person group)
+__Algorithms for Game Design__ (Leader of a Three-Person Group)
 
 `Remote`
 Supervised by Prof. Bill Nace from Carnegie Mellon University
