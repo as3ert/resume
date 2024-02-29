@@ -46,11 +46,11 @@ __Algorithms for Game Design__
 `Remote`
 Leader of a 3-person group; Supervised by Prof. Bill Nace from Carnegie Mellon University
 
-Utilized Python to develop a hybrid of two uniform maze generation algorithms, Aldous-Broder and Wilson, and locate the best usage ratio through experimentation
-Generated mazes of different sizes using Aldous-Broder and Wilson and recorded the execution times 
-Calculated the optimal usage ratio by alternating between the two algorithms at critical running phases 
-Demonstrated that the performance was better compared to either algorithm by itself when the percentage of visited cells reaches a specific value
-Tested the algorithmic ratio on generating larger mazes and tried other maze generation algorithm
+- Utilized Python to develop a hybrid of two uniform maze generation algorithms, Aldous-Broder and Wilson, and locate the best usage ratio through experimentation
+- Generated mazes of different sizes using Aldous-Broder and Wilson and recorded the execution times 
+- Calculated the optimal usage ratio by alternating between the two algorithms at critical running phases 
+- Demonstrated that the performance was better compared to either algorithm by itself when the percentage of visited cells reaches a specific value
+- Tested the algorithmic ratio on generating larger mazes and tried other maze generation algorithm
 
 ## Internship
 
@@ -60,10 +60,9 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-Independently improved ASO (App Store Optimization) for games, such as Rolling Sky and Magic Piano Tiles 4: Pop Songs
-Studied the keywords suggestion scheme of Google Play to optimize gaming introduction and short description
-Tested the game levels of Rolling Sky manually and the stability of Magic Piano Tiles 4: Pop Songs using Python
-
+- Independently improved ASO (App Store Optimization) for games, such as Rolling Sky and Magic Piano Tiles 4: Pop Songs
+- Studied the keywords suggestion scheme of Google Play to optimize gaming introduction and short description
+- Tested the game levels of Rolling Sky manually and the stability of Magic Piano Tiles 4: Pop Songs using Python
 
 ## Occupation
 
