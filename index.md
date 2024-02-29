@@ -26,6 +26,21 @@ Bowen Scholarship
 `2022 - 2023`
 Dean's List
 
+## Projects
+
+`Jan. 2024`
+
+<a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
+
+`Jan. 2023 - May  2023`
+<a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
+
+`Sep. 2022 - Dec. 2022`
+__End-to-End Diffusion Model for Referenced-Image Super-Resolution__
+
+`Apr. 2022 - May. 2022`
+__5-Stage Pipelined CPU Implementation__
+
 ### Coursework
 
 Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Anaylsis of Algorithms, Compiler Construction, etc.
@@ -54,23 +69,6 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-
-## Projects
-
-`Jan. 2024`
-
-<a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
-
-`Jan. 2023 - May  2023`
-<a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
-
-`Sep. 2022 - Dec. 2022`
-__End-to-End Diffusion Model for Referenced-Image Super-Resolution__
-
-`Apr. 2022 - May. 2022`
-__5-Stage Pipelined CPU Implementation__
-
 <!-- ### Footer
 
 Last updated: May 2013 -->
-
