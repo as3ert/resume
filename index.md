@@ -39,7 +39,7 @@ LaTeX, Markdown
 
 ## Interest
 
-Self-Study, Computer Science, Games, DIY, etc.
+Self-Study, Computer Science, Technology, Games, DIY, etc.
 
 ## Projects
 
@@ -48,12 +48,6 @@ Self-Study, Computer Science, Games, DIY, etc.
 
 `Jan 2023 - May 2023`
 <a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
-
-`Sep 2022 - Dec 2022`
-__End-to-End Diffusion Model for Referenced-Image Super-Resolution__
-
-`Apr 2022 - May 2022`
-__5-Stage Pipelined CPU Implementation__
 
 ## Publication
 
