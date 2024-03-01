@@ -54,7 +54,7 @@ table {
 body {
 	font: normal normal 400;
 	font-size: 12pt;
-	line-height: 1.2em;
+	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	/*margin-top: 1em;
@@ -89,7 +89,7 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1em;
-	margin-top: -0.5em;
+	/*margin-top: -0.5em;*/
 }
 
 /*uncomment to get dashes in the list*/
@@ -117,14 +117,12 @@ h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 80%;
-
-    text-transform: uppercase;
 }
 
 h1 {
 	text-align: left;
 	font-size: 3em;
-	line-height: 1.1em;
+	line-height: 1em;
 	position: relative;
 	left: 25%;
 }
@@ -136,7 +134,7 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 1.1em;
 	color: #a00;
 	margin-top: 2em;
 	position: relative;

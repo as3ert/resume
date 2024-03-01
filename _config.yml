@@ -1,5 +1,5 @@
 markdown: kramdown
-# style: arthur
+style: arthur
 # style: benmeller
-style: davewhipp
+# style: davewhipp
 # style: kjhealy
