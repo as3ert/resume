@@ -58,14 +58,14 @@ body {
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
-	margin-top: 0.5em;
+	margin-top: 1em;
 	margin-left: 1em;
 }
 
 p {
 	position: relative;
 	left: 25%;
-	margin-bottom: 0.7em;
+	margin-bottom: 0em;
 	margin-right: 0;
 	width: 55%;
 }
@@ -124,7 +124,7 @@ h1 {
 	font-weight: 500;
 	text-align: left;
 	font-size: 3em;
-	line-height: 1em;
+	line-height: 1.2em;
 	position: relative;
 	left: 25%;
 
