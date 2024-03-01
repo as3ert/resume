@@ -20,10 +20,9 @@ __The Chinese University of Hong Kong, Shenzhen__
 ### Awards
 
 `2020 - 2024`
-**Bowen Scholarship**
-
+Bowen Scholarship
 `2022 - 2023`
-**Dean's List**
+Dean's List
 
 ### Coursework
 
@@ -33,7 +32,6 @@ Computer Architecture, Data Structures, Operating System, Computer Networks, Ima
 
 `Programming`
 C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
-
 `Documentation`
 LaTeX, Markdown
 
@@ -80,5 +78,6 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-### Footer
+<!-- ### Footer -->
+
 Last updated: Mar 2024
