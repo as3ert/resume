@@ -14,7 +14,6 @@ M.Sc candidate in Computer Science
 `Sep 2020 - Jun 2024 (Expected)`
 __The Chinese University of Hong Kong, Shenzhen__
 
-`Expected`
 - B.Eng in Computer Science and Engineering
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
@@ -35,14 +34,12 @@ Computer Architecture, Data Structures, Operating System, Computer Networks, Ima
 `Programming`
 C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
 
-`Web Development`
-CSS, HTML, PHP
-
-`Script and Data Analysis`
-MATLAB, R, SQL
-
-`Documentation and Typesetting`
+`Documentation`
 LaTeX, Markdown
+
+## Interest
+
+Self-Study, Computer Science, Algorithms, Open Source, DIY, Games, etc.
 
 ## Projects
 
@@ -83,5 +80,5 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-<!-- ### Footer
-Last updated: Mar 2024 -->
+### Footer
+Last updated: Mar 2024
