@@ -1,3 +1,8 @@
+<!-- Load the webpage without caching -->
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
 ---
 layout: resume
 title: Guangxin Zhao
@@ -81,8 +86,3 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 Google Play Game Developer Assistant
 
 <h3 align="right">Last updated: Mar 2024</h3>
-
-<!-- Load the webpage without caching -->
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
