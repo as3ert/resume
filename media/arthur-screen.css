@@ -52,29 +52,33 @@ table {
 
 
 body {
-	font-family: normal;
-	font-weight: 400;
+	font: normal normal 400;
 	font-size: 100%;
-	line-height: 1.5em;
+	line-height: 1.2em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
-	margin-top: 1em;
-	margin-left: 1em;
+	margin: 1em 20%;
+	min-width: 15em;
 }
 
 p {
 	position: relative;
-	left: 25%;
-	margin-bottom: 0.7em;
+	margin-bottom: 1.2em;
 	margin-right: 0;
-	width: 55%;
+	width: 82%;
+    font-weight: 300;
+    color: #535150;
+}
+
+b, strong {
+    color: #000;
 }
 
 code {
 	font: normal normal;
 	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: Avenir,Monaco,Menlo,monospace,sans-serif;
 	color: #aaa;
 }
 
@@ -87,47 +91,47 @@ p code {
 
 ul {
 	position: relative;
-	left: 25%;
-	width: 75%;
+	width: 82%;
 	margin-bottom: 1.5em;
-	margin-top: -0.5em;
+	margin-top: -1em;
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
 	padding-left: 1.25em;
-	text-indent: -1.25em;
+	/* text-indent: -1.25em; */
 	/*color: #777;*/
 }
 
 li ul {
 	position: relative;
 	left: 0;
-	width: 100%;
+	width: 82%;
 	margin-top: 0.25em;
 }
 
 h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
+	width: 82%;
 
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 h1 {
 	text-align: left;
 	font-size: 3em;
 	line-height: 1.1em;
+    letter-spacing: 3px;
 	position: relative;
-	left: 25%;
+    font-weight: 700;
 }
 
 h1+p {
@@ -138,12 +142,10 @@ h1+p {
 
 h2 {
 	font-size: 1.4em;
-	color: #bc412b;
 	margin-top: 2em;
 	position: relative;
-	top: 1.4em;
-	text-align: right;
-	width: 20%;
+    font-weight: 500;
+    margin-bottom: 1.4em;
 }
 
 /* Add black bar under H2 */
@@ -161,32 +163,21 @@ h3 {
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
-	top: 1.7em;
-	text-align: right;
-	width: 20%;
+    font-weight: 500;
 }
 
 a {
 	color: inherit;
-	/*text-decoration:none*/
+	text-decoration:none
 }
 
 a:hover {
 	color:#39f
 }
 
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #bc412b;
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 100%;
-}
-
-#webaddress a {
-	text-decoration: none;
-}
+div#webaddress > p {
+    text-transform: uppercase;
+} 
 
 em {
 	/* font-weight: bold; */
@@ -199,6 +190,18 @@ strong {
 
 #address {
 	display: none;
+}
+
+hr {
+	border-top: 0.5px solid rgb(66, 66, 66);
+}
+
+/* Profile image at top. Insert image before H1 */
+img {
+    position: absolute;
+    right: -22%;
+    height: 7.5em;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 1024px) {
