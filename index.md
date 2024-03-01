@@ -31,12 +31,17 @@ __The Chinese University of Hong Kong, Shenzhen__
 Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Anaylsis of Algorithms, Compiler Construction, etc.
 
 ## Skills
-` `
 
-### Programming
+`Programming`
 C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
 
-### Documentation
+`Web Development`
+CSS, HTML, PHP
+
+`Script and Data Analysis`
+MATLAB, R, SQL
+
+`Documentation and Typesetting`
 LaTeX, Markdown
 
 ## Projects
