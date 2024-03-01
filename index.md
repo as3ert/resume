@@ -15,6 +15,7 @@ M.Sc candidate in Computer Science
 __The Chinese University of Hong Kong, Shenzhen__
 
 - B.Eng in Computer Science and Engineering
+
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
 ### Awards
@@ -33,6 +34,7 @@ Computer Architecture, Data Structures, Operating System, Computer Networks, Ima
 
 `Programming`
 C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
+
 `Documentation`
 LaTeX, Markdown
 
@@ -80,5 +82,5 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 Google Play Game Developer Assistant
 
 <!-- ### Footer -->
-
+<br>
 Last updated: Mar 2024
