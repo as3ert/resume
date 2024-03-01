@@ -240,13 +240,13 @@ img {
 	body {
 		margin-top: 0;
 		margin-left: 0;
-	  padding: 1em;
+	  	padding: 1em;
 	}
   
 	p code {
-	  position: static;
-	  margin-right: auto;
-	  display: block;
-	  text-align: left;
+		position: static;
+		margin-right: auto;
+		display: block;
+		text-align: left;
 	}
 }

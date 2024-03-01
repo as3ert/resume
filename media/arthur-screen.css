@@ -53,10 +53,8 @@ body {
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
-	/* margin-top: 1em;
-	margin-left: 1em; */
-	margin: 1em 20%;
-	min-width: 15em;
+	margin-top: 1em;
+	margin-left: 0;
 }
 
 p {
@@ -87,7 +85,6 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1.5em;
-	/* margin-top: -0.5em; */
 	margin-top: 0em;
 }
 
@@ -238,13 +235,13 @@ strong {
 	body {
 		margin-top: 0;
 		margin-left: 0;
-	  padding: 1em;
+	  	padding: 1em;
 	}
   
 	p code {
-	  position: static;
-	  margin-right: auto;
-	  display: block;
-	  text-align: left;
+		position: static;
+		margin-right: auto;
+		display: block;
+		text-align: left;
 	}
 }
