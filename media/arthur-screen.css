@@ -53,28 +53,33 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 12pt;
-	line-height: 1.35em;
+	font-size: 100%;
+	line-height: 1.2em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
-	/*margin-top: 1em;
-	margin-left: 1em;*/
+	margin: 1em 20%;
+	min-width: 15em;
 }
 
 p {
 	position: relative;
-	left: 25%;
-	margin-bottom: 0.2em;
+	margin-bottom: 1.2em;
 	margin-right: 0;
-	width: 60%;
+	width: 82%;
+    font-weight: 300;
+    color: #535150;
+}
+
+b, strong {
+    color: #000;
 }
 
 code {
 	font: normal normal;
 	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #ccc;
+	font-family: Avenir,Monaco,Menlo,monospace,sans-serif;
+	color: #aaa;
 }
 
 p code {
@@ -86,48 +91,47 @@ p code {
 
 ul {
 	position: relative;
-	left: 25%;
-	width: 75%;
-	margin-bottom: 1em;
-	/*margin-top: -0.5em;*/
+	width: 82%;
+	margin-bottom: 1.5em;
+	margin-top: -1em;
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
 	padding-left: 1.25em;
-	text-indent: -1.25em;
+	/* text-indent: -1.25em; */
 	/*color: #777;*/
 }
 
 li ul {
 	position: relative;
 	left: 0;
-	width: 100%;
+	width: 82%;
 	margin-top: 0.25em;
 }
 
 h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
+	width: 82%;
+
+    text-transform: uppercase;
 }
 
 h1 {
 	text-align: left;
 	font-size: 3em;
-	line-height: 1em;
+	line-height: 1.1em;
+    letter-spacing: 3px;
 	position: relative;
-	left: 25%;
-
-	text-transform: uppercase;
-	font-variant: small-caps;
+    font-weight: 700;
 }
 
 h1+p {
@@ -137,24 +141,29 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.1em;
-	color: #a00;
+	font-size: 1.4em;
 	margin-top: 2em;
 	position: relative;
-	top: 1.2em;
-	text-align: right;
-	width: 20%;
+    font-weight: 500;
+    margin-bottom: 1.4em;
 }
 
+/* Add black bar under H2 */
+h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 15px;
+    width: 65px;
+    border-top: 5px solid black;
+}
 
 h3 {
 	font-size: 1em;
 	line-height: 2em;
-	color: #ccc;
 	position: relative;
-	top: 1.6em;
-	text-align: right;
-	width: 20%;
+    font-weight: 500;
 }
 
 a {
@@ -166,29 +175,78 @@ a:hover {
 	color:#39f
 }
 
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #ccc;
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 90%;
-}
-
-#webaddress a {
-	text-decoration: none;
-}
+div#webaddress > p {
+    text-transform: uppercase;
+} 
 
 em {
-	font-style: normal;
-	color: #2d4e5e
+	/* font-weight: bold; */
+	font-style: italic;
 }
 
 strong {
 	font-weight: bold;
 }
 
-#ghbutton {
+#address {
 	display: none;
-	visibility: hidden;
+}
+
+hr {
+	border-top: 0.5px solid rgb(66, 66, 66);
+}
+
+/* Profile image at top. Insert image before H1 */
+img {
+    position: absolute;
+    right: -22%;
+    height: 7.5em;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+	  overflow-x: hidden;
+	}
+}
+  
+/* Mobile styling, starting at iPad portrait size */
+@media only screen and (max-width: 768px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	p,
+	ul,
+	code,
+	#webaddress {
+	  position: static;
+	  width: 100%;
+	  text-align: left;
+	}
+  
+	code {
+	  width: auto;
+	}
+  
+	h1 {
+	  margin-bottom: 0.1em;
+	}
+  
+	h2 {
+	  margin-top: 1em;
+	}
+  
+	body {
+		margin-top: 0;
+		margin-left: 0;
+	  padding: 1em;
+	}
+  
+	p code {
+	  position: static;
+	  margin-right: auto;
+	  display: block;
+	  text-align: left;
+	}
 }
