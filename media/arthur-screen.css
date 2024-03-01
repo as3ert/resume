@@ -65,7 +65,7 @@ body {
 p {
 	position: relative;
 	left: 25%;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.2em;
 	margin-right: 0;
 	width: 55%;
 }
@@ -115,7 +115,7 @@ li ul {
 }
 
 h1,h2,h3,h4 {
-	font-weight: 800;
+	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 80%;
 }
@@ -204,33 +204,33 @@ strong {
 	ul,
 	code,
 	#webaddress {
-	  position: static;
-	  width: 100%;
-	  text-align: left;
+		position: static;
+		width: 100%;
+		text-align: left;
 	}
   
 	code {
-	  width: auto;
+	  	width: auto;
 	}
   
 	h1 {
-	  margin-bottom: 0.1em;
+	  	margin-bottom: 0.1em;
 	}
   
 	h2 {
-	  margin-top: 1em;
+	  	margin-top: 1em;
 	}
   
 	body {
 		margin-top: 0;
 		margin-left: 0;
-	  padding: 1em;
+	  	padding: 1em;
 	}
   
 	p code {
-	  position: static;
-	  margin-right: auto;
-	  display: block;
-	  text-align: left;
+		position: static;
+		margin-right: auto;
+		display: block;
+		text-align: left;
 	}
 }

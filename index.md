@@ -39,7 +39,7 @@ LaTeX, Markdown
 
 ## Interest
 
-Self-Study, Computer Science, Algorithms, Open Source, DIY, Games, etc.
+Self-Study, Computer Science, Games, DIY, etc.
 
 ## Projects
 
