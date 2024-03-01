@@ -127,7 +127,7 @@ h1 {
 	position: relative;
 	left: 25%;
 
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-variant: small-caps;
 }
 
