@@ -52,14 +52,13 @@ table {
 
 
 body {
-	font-family: normal;
-	font-weight: 400;
-	font-size: 100%;
-	line-height: 1.5em;
+	font: normal normal 400;
+	font-size: 12pt;
+	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
-	margin-top: 1em;
-	margin-left: 1em;
+	/*margin-top: 1em;
+	margin-left: 1em;*/
 }
 
 p {
@@ -67,7 +66,7 @@ p {
 	left: 25%;
 	margin-bottom: 0.2em;
 	margin-right: 0;
-	width: 55%;
+	width: 60%;
 }
 
 code {
@@ -75,7 +74,7 @@ code {
 	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #aaa;
+	color: #ccc;
 }
 
 p code {
@@ -89,8 +88,8 @@ ul {
 	position: relative;
 	left: 25%;
 	width: 75%;
-	margin-bottom: 1.2em;
-	margin-top: -0.5em;
+	margin-bottom: 1em;
+	/*margin-top: -0.5em;*/
 }
 
 /*uncomment to get dashes in the list*/
@@ -114,8 +113,8 @@ li ul {
 	margin-top: 0.25em;
 }
 
-h1,h2,h3 {
-	font-weight: 600;
+h1,h2,h3,h4 {
+	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 80%;
 
@@ -125,9 +124,13 @@ h1,h2,h3 {
 h1 {
 	text-align: left;
 	font-size: 3em;
-	line-height: 1.2em;
+	line-height: 1em;
 	position: relative;
 	left: 25%;
+}
+
+h1::first-letter {
+	font-size: 120%;
 }
 
 h1+p {
@@ -137,33 +140,29 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.5em;
-	color: #bc412b;
-	margin-top: 3em;
+	font-size: 1.1em;
+	color: #a00;
+	margin-top: 2em;
 	position: relative;
 	top: 1.2em;
 	text-align: right;
 	width: 20%;
 }
+
 
 h3 {
 	font-size: 1em;
 	line-height: 2em;
+	color: #ccc;
 	position: relative;
-	top: 1.2em;
+	top: 1.6em;
 	text-align: right;
 	width: 20%;
 }
 
-h4 {
-	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
-}
-
 a {
 	color: inherit;
-	/*text-decoration:none*/
+	text-decoration:none
 }
 
 a:hover {
@@ -174,9 +173,9 @@ a:hover {
 	margin-top: 1em;
 	position: relative;
 	left: 25%;
-	color: #bc412b;
+	color: #ccc;
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 100%;
+	font-size: 90%;
 }
 
 #webaddress a {
@@ -184,61 +183,15 @@ a:hover {
 }
 
 em {
-	/* font-weight: bold; */
-	font-style: italic;
+	font-style: normal;
+	color: #2d4e5e
 }
 
 strong {
 	font-weight: bold;
 }
 
-#address {
+#ghbutton {
 	display: none;
-}
-
-@media only screen and (max-width: 1024px) {
-	body {
-	  overflow-x: hidden;
-	}
-}
-  
-/* Mobile styling, starting at iPad portrait size */
-@media only screen and (max-width: 768px) {
-	h1,
-	h2,
-	h3,
-	h4,
-	p,
-	ul,
-	code,
-	#webaddress {
-		position: static;
-		width: 100%;
-		text-align: left;
-	}
-  
-	code {
-	  	width: auto;
-	}
-  
-	h1 {
-	  	margin-bottom: 0.1em;
-	}
-  
-	h2 {
-	  	margin-top: 1em;
-	}
-  
-	body {
-		margin-top: 0;
-		margin-left: 0;
-	  	padding: 1em;
-	}
-  
-	p code {
-		position: static;
-		margin-right: auto;
-		display: block;
-		text-align: left;
-	}
+	visibility: hidden;
 }
