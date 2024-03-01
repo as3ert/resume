@@ -204,43 +204,49 @@ img {
     border-radius: 50%;
 }
 
-
-/* Responsive */
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
+@media only screen and (max-width: 1024px) {
 	body {
-		margin: 1em 25%;
+	  overflow-x: hidden;
 	}
 }
-
-/* Smaller screens - e.g. iPad and below */
-@media screen and (max-width: 1024px) {
-	body {
-		margin: 1em 5%;
+  
+  /* Mobile styling, starting at iPad portrait size */
+@media only screen and (max-width: 768px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	p,
+	ul,
+	code,
+	#webaddress {
+	  position: static;
+	  width: 100%;
+	  text-align: left;
 	}
-}
-
-/* Mobile */
-@media screen and (max-width: 480px) {
+  
+	code {
+	  width: auto;
+	}
+  
 	h1 {
-		font-size: 2em;
+	  margin-bottom: 0.1em;
 	}
-
-	p {
-		width: 70%;
+  
+	h2 {
+	  margin-top: 1em;
 	}
-
+  
+	body {
+		margin-top: 0;
+		margin-left: 0;
+	  padding: 1em;
+	}
+  
 	p code {
-		right: -40%;
-	}
-
-	.item:first-child {
-		flex-basis: 100%;
-	}
-
-	img {
-		height: 5em;
-		right: -34%;
+	  position: static;
+	  margin-right: auto;
+	  display: block;
+	  text-align: left;
 	}
 }
