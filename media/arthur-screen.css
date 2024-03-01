@@ -141,7 +141,7 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #bc412b;
-	margin-top: 1em;
+	margin-top: 2em;
 	position: relative;
 	top: 1.4em;
 	text-align: right;
@@ -152,9 +152,9 @@ h2 {
 
 h3 {
 	font-size: 1em;
-	line-height: 1em;
+	line-height: 2em;
 	position: relative;
-	top: 0.7em;
+	top: 1.7em;
 	text-align: right;
 	width: 20%;
 
@@ -165,7 +165,7 @@ h4 {
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
-	top: 3.7em;
+	top: 1.7em;
 	text-align: right;
 	width: 20%;
 }
