@@ -80,4 +80,4 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-<h4 align="right">Last updated: Mar 2024</h4>
+<h4 align="left">Last updated: Mar 2024</h4>
