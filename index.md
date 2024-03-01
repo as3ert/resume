@@ -20,10 +20,10 @@ __The Chinese University of Hong Kong, Shenzhen__
 ### Awards
 
 `2020 - 2024`
-- Bowen Scholarship
+Bowen Scholarship
 
 `2022 - 2023`
-- Dean's List
+Dean's List
 
 ### Coursework
 
@@ -74,12 +74,12 @@ Supervised by Prof. Bill Nace from Carnegie Mellon University
 
 ## Internship
 
-`Aug 2022 - Sept 2022`
+`Aug 2022 - Sep 2022`
 __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-<!-- ### Footer -->
-<br>
+### Footer
+
 Last updated: Mar 2024
