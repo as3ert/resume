@@ -192,7 +192,7 @@ strong {
 	}
 }
   
-  /* Mobile styling, starting at iPad portrait size */
+/* Mobile styling, starting at iPad portrait size */
 @media only screen and (max-width: 768px) {
 	h1,
 	h2,
