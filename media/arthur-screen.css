@@ -116,13 +116,12 @@ li ul {
 }
 
 h1,h2,h3,h4 {
-	font-weight: 400;
+	font-weight: 500;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 80%;
 }
 
 h1 {
-	font-weight: 500;
 	text-align: left;
 	font-size: 3em;
 	line-height: 1.2em;
@@ -143,7 +142,7 @@ h2 {
 	color: #bc412b;
 	margin-top: 2em;
 	position: relative;
-	top: 0.8em;
+	top: 0.9em;
 	text-align: right;
 	width: 20%;
 
@@ -162,6 +161,7 @@ h3 {
 }
 
 h4 {
+	font-weight: 400;
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
