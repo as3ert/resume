@@ -65,7 +65,7 @@ body {
 p {
 	position: relative;
 	left: 25%;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
 	margin-right: 0;
 	width: 55%;
 }
@@ -154,7 +154,7 @@ h3 {
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
-	top: 1em;
+	top: 1.7em;
 	text-align: right;
 	width: 20%;
 
