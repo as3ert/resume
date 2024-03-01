@@ -15,7 +15,6 @@ M.Sc candidate in Computer Science
 __The Chinese University of Hong Kong, Shenzhen__
 
 - B.Eng in Computer Science and Engineering
-
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
 ### Awards
