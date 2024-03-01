@@ -1,3 +1,8 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -85,6 +90,7 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1.5em;
+	/* margin-top: -0.5em; */
 	margin-top: 0em;
 }
 
@@ -235,13 +241,13 @@ strong {
 	body {
 		margin-top: 0;
 		margin-left: 0;
-	  	padding: 1em;
+	  padding: 1em;
 	}
   
 	p code {
-		position: static;
-		margin-right: auto;
-		display: block;
-		text-align: left;
+	  position: static;
+	  margin-right: auto;
+	  display: block;
+	  text-align: left;
 	}
 }
