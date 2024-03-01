@@ -126,6 +126,9 @@ h1 {
 	line-height: 1em;
 	position: relative;
 	left: 25%;
+
+	text-transform: uppercase;
+	font-variant: small-caps;
 }
 
 h1+p {
