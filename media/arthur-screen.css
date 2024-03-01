@@ -152,7 +152,7 @@ h2 {
 
 h3 {
 	font-size: 1em;
-	line-height: 2em;
+	line-height: 0em;
 	position: relative;
 	top: 1.7em;
 	text-align: right;
@@ -165,7 +165,7 @@ h4 {
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
-	top: 1.7em;
+	top: 3.7em;
 	text-align: right;
 	width: 20%;
 }
