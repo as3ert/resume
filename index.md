@@ -11,11 +11,16 @@ M.Sc candidate in Computer Science
 
 ## Education
 
-`Sep 2020 - Jun 2024 (Expected)`
+`Sep 2020 - Jun 2024`
 __The Chinese University of Hong Kong, Shenzhen__
 
 - B.Eng in Computer Science and Engineering
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
+
+`Oct 2024 - Present`
+__Universtät Stuttgart__
+
+- M.Sc in Computer Science (branch Visual Computing)
 
 ### Awards
 
