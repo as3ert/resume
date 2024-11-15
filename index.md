@@ -61,7 +61,7 @@ __A Hybrid Approach to Maze Generation Algorithms__
 
 Co-authors: **Guangxin Zhao**, Hao Gu, and Emma Cai
 
-<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12941.toc;1294114">Proceedings Volume 12941, International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023); 1294114 (2023) <a href="https://doi.org/10.1117/12.3011553">DOI: 10.1117/12.3011553</a>
+<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12941.toc;1294114">Proceedings Volume 12941, International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023)</a>; 1294114 (2023) <a href="https://doi.org/10.1117/12.3011553">DOI: 10.1117/12.3011553</a>
 
 ## Research
 
