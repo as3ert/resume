@@ -3,7 +3,7 @@ layout: resume
 title: Guangxin Zhao
 ---
 # Guangxin Zhao
-M.Sc candidate in Computer Science
+M.Sc Student in Computer Science
 
 <div id="webaddress">
 <a href="https://github.com/as3ert">GitHub: as3ert</a>
