@@ -6,7 +6,8 @@ title: Guangxin Zhao
 M.Sc Student in Computer Science
 
 <div id="webaddress">
-<a href="https://github.com/as3ert">GitHub: as3ert</a>
+    <a href="https://github.com/as3ert">GitHub: as3ert</a><br>
+    <a href="mailto:guangxin.zhao@example.com">Email Me</a>
 </div>
 
 ## Education
