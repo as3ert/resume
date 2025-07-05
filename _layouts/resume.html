@@ -24,16 +24,19 @@
     body {
       font-family: var(--user-font);
     }
+
+    #fontToggle {
+      padding: 0.3em 0.6em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f3f3f3;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
   <div style="position: fixed; top: 1em; right: 1em; z-index: 999;">
-    <label for="fontSelect">Font:</label>
-    <select id="fontSelect">
-      <option value="Avenir, Verdana, sans-serif">Default</option>
-      <option value="Minecraft-Enchantment">Minecraft</option>
-      <option value="Courier New">Courier</option>
-    </select>
+    <button id="fontToggle">Use Minecraft Font</button>
   </div>
 
   <div id="main">
@@ -43,18 +46,23 @@
   </div>
 
   <script>
-    const fontSelect = document.getElementById('fontSelect');
-    fontSelect.addEventListener('change', () => {
-      document.documentElement.style.setProperty('--user-font', fontSelect.value);
-      localStorage.setItem('selectedFont', fontSelect.value);
+    const btn = document.getElementById('fontToggle');
+
+    function updateFont(useMinecraft) {
+      const font = useMinecraft ? 'Minecraft-Enchantment' : 'Avenir, Verdana, sans-serif';
+      document.documentElement.style.setProperty('--user-font', font);
+      btn.textContent = useMinecraft ? 'Use Default Font' : 'Use Minecraft Font';
+      localStorage.setItem('useMinecraftFont', useMinecraft);
+    }
+
+    btn.addEventListener('click', () => {
+      const current = localStorage.getItem('useMinecraftFont') === 'true';
+      updateFont(!current);
     });
 
     window.addEventListener('DOMContentLoaded', () => {
-      const savedFont = localStorage.getItem('selectedFont');
-      if (savedFont) {
-        document.documentElement.style.setProperty('--user-font', savedFont);
-        fontSelect.value = savedFont;
-      }
+      const saved = localStorage.getItem('useMinecraftFont') === 'true';
+      updateFont(saved);
     });
   </script>
 </body>
