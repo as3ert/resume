@@ -84,10 +84,11 @@
       updateFont(!current);
     });
 
-    window.addEventListener('DOMContentLoaded', () => {
-      const saved = localStorage.getItem('useMinecraftFont') === 'true';
-      updateFont(saved);
-    });
+  window.addEventListener('DOMContentLoaded', () => {
+    const saved = localStorage.getItem('useMinecraftFont');
+    const useMinecraft = saved === null ? true : saved === 'true';  
+    updateFont(useMinecraft);
+  });
   </script>
 </body>
 </html>>
