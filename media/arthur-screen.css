@@ -5,6 +5,12 @@
 
 :root {
 	--user-font: Avenir, Verdana, sans-serif;
+  	--code-font: Monaco, Menlo, monospace;
+}
+
+@font-face {
+	font-family: 'Minecraft-Enchantment';
+	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
 }
 
 html, body, div, span, applet, object, iframe,
@@ -58,10 +64,6 @@ table {
 /* end of reset */
 
 
-@font-face {
-	font-family: 'Minecraft-Enchantment';
-	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
-}
 
 body {
 	font-family: normal;
@@ -86,7 +88,7 @@ code {
 	font: normal normal;
 	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: var(--code-font);
 	color: #aaa;
 }
 
@@ -194,7 +196,7 @@ a:hover {
 	position: relative;
 	left: 25%;
 	color: #bc412b;
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: var(--code-font);
 	font-size: 100%;
 }
 

@@ -14,6 +14,7 @@
   <style>
     :root {
       --user-font: Avenir, Verdana, sans-serif;
+      --code-font: Monaco, Menlo, monospace;
     }
 
     @font-face {
@@ -21,8 +22,12 @@
       src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
     }
 
-    body {
+    body, h1, h2, h3, h4, h5, h6, p, li, a {
       font-family: var(--user-font);
+    }
+
+    code, pre {
+      font-family: var(--code-font);
     }
 
     #fontToggle {
@@ -48,9 +53,21 @@
   <script>
     const btn = document.getElementById('fontToggle');
 
+    const fonts = {
+      default: {
+        user: "Avenir, Verdana, sans-serif",
+        code: "Monaco, Menlo, monospace"
+      },
+      minecraft: {
+        user: "'Minecraft-Enchantment'",
+        code: "'Minecraft-Enchantment'"
+      }
+    };
+
     function updateFont(useMinecraft) {
-      const font = useMinecraft ? 'Minecraft-Enchantment' : 'Avenir, Verdana, sans-serif';
-      document.documentElement.style.setProperty('--user-font', font);
+      const mode = useMinecraft ? "minecraft" : "default";
+      document.documentElement.style.setProperty('--user-font', fonts[mode].user);
+      document.documentElement.style.setProperty('--code-font', fonts[mode].code);
       btn.textContent = useMinecraft ? 'Use Default Font' : 'Use Minecraft Font';
       localStorage.setItem('useMinecraftFont', useMinecraft);
     }
