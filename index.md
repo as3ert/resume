@@ -44,10 +44,6 @@ C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
 `Documentation`
 LaTeX, Markdown
 
-## Interest
-
-Self-Study, Computer Science, Technology, Games, DIY, etc.
-
 ## Projects
 
 `Jan 2024`
@@ -81,4 +77,8 @@ __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 `Nanjing, Jiangsu, China`
 Google Play Game Developer Assistant
 
-<h4 align="right">Last updated: Nov 2024</h4>
+## Interest
+
+Computer Science, Computer Graphics, Photography, Technology, Games, DIY, etc.
+
+<h4 align="right">Last updated: Jul 2025</h4>
