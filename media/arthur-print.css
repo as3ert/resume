@@ -3,6 +3,17 @@
    License: none (public domain)
 */
 
+:root {
+	--user-font: Avenir, Verdana, sans-serif;
+  	--code-font: Monaco, Menlo, monospace;
+}
+
+@font-face {
+	font-family: 'Minecraft-Enchantment';
+	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,7 +67,7 @@ body {
 	font-size: 12pt;
 	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir,Verdana,sans-serif;
+	font-family: var(--user-font);
 	/*margin-top: 1em;
 	margin-left: 1em;*/
 }
@@ -73,7 +84,7 @@ code {
 	font: normal normal;
 	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: var(--code-font);
 	color: #ccc;
 }
 
@@ -115,7 +126,7 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
+	font-family: var(--user-font);
 	width: 80%;
 }
 
@@ -168,7 +179,7 @@ a:hover {
 	position: relative;
 	left: 25%;
 	color: #ccc;
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: var(--code-font);
 	font-size: 90%;
 }
 
