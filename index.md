@@ -20,7 +20,7 @@ __The Chinese University of Hong Kong, Shenzhen__
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
 `Oct 2024 - Present`
-__Universität Stuttgart__
+__Universitaet Stuttgart__
 
 - M.Sc in Computer Science (branch Visual Computing)
 

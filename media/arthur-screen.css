@@ -59,8 +59,8 @@ table {
 
 
 @font-face {
-	font-family: 'MinecraftEnchantment';
-	src: url('./fonts/MinecraftEnchantment.ttf') format('truetype');
+	font-family: 'Minecraft-Enchantment';
+	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
 }
 
 body {
