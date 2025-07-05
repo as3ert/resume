@@ -41,7 +41,7 @@
 </head>
 <body>
   <div style="position: fixed; top: 1em; right: 1em; z-index: 999;">
-    <button id="fontToggle">Use Minecraft Font</button>
+    <img id="fontToggle" src="media/images/Pig.png" alt="Toggle Font" style="width: 40px; height: 40px; cursor: pointer;" />
   </div>
 
   <div id="main">
@@ -56,11 +56,13 @@
     const fonts = {
       default: {
         user: "Avenir, Verdana, sans-serif",
-        code: "Monaco, Menlo, monospace"
+        code: "Monaco, Menlo, monospace",
+        icon: "media/images/Creeper.png"
       },
       minecraft: {
-        user: "'Minecraft-Enchantment'",
-        code: "'Minecraft-Enchantment'"
+        user: "Minecraft-Enchantment",
+        code: "Minecraft-Enchantment",
+        icon: "media/images/Pig.png"
       }
     };
 
@@ -68,7 +70,7 @@
       const mode = useMinecraft ? "minecraft" : "default";
       document.documentElement.style.setProperty('--user-font', fonts[mode].user);
       document.documentElement.style.setProperty('--code-font', fonts[mode].code);
-      btn.textContent = useMinecraft ? 'Use Default Font' : 'Use Minecraft Font';
+      btn.src = fonts[mode].icon;
       localStorage.setItem('useMinecraftFont', useMinecraft);
     }
 
@@ -83,4 +85,4 @@
     });
   </script>
 </body>
-</html>
+</html>>
