@@ -4,7 +4,7 @@ title: Guangxin Zhao
 ---
 # Guangxin Zhao
 
-M.Sc Student in Computer Science
+M.Sc. Student in Computer Science
 
 <div id="webaddress">
     <a href="mailto:guangxin@guangxinzhao.com">Email: guangxin@guangxinzhao.com</a><br>
@@ -22,7 +22,7 @@ __The Chinese University of Hong Kong, Shenzhen__
 `Oct 2024 - Present`
 __Universität Stuttgart__
 
-- M.Sc in Computer Science (branch Visual Computing)
+- M.Sc. in Computer Science (Visual Computing Track)
 
 ### Awards
 
@@ -34,7 +34,7 @@ Dean's List
 
 ### Coursework
 
-Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Anaylsis of Algorithms, Compiler Construction, etc.
+Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Analysis of Algorithms, Compiler Construction, etc.
 
 ## Skills
 
@@ -75,10 +75,10 @@ Supervised by Prof. Bill Nace from Carnegie Mellon University
 __Ray Vision Software Technology (Nanjing) Co., Ltd.__
 
 `Nanjing, Jiangsu, China`
-Google Play Game Developer Assistant
+Assistant Game Developer for Google Play platform
 
 ## Interest
 
-Computer Science, Computer Graphics, Photography, Technology, Games, DIY, etc.
+Computer Science, Computer Graphics, Visual Computing, GPU Programming, etc.
 
-<h4 align="right">Last updated: Jul 2025</h4>
+<h4 align="right" style="font-weight: normal; font-size: 0.9em;">Last updated: Jul 2025</h4>
