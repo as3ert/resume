@@ -10,12 +10,12 @@
 
 @font-face {
 	font-family: 'Minecraft-Enchantment';
-	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
+	src: url('fonts/Minecraft-Enchantment.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Minecraft';
-	src: url('media/fonts/Minecraft.ttf') format('truetype');
+	src: url('fonts/Minecraft.ttf') format('truetype');
 }
 
 html, body, div, span, applet, object, iframe,
@@ -141,6 +141,7 @@ h1 {
 	line-height: 1.2em;
 	position: relative;
 	left: 25%;
+  	margin-top: 1em;
 
 	font-variant: small-caps;
 }
@@ -241,7 +242,7 @@ body {
 
 #container {
   width: 100%;
-  max-width: 98vw;
+  max-width: 99vw;
   margin: 0 auto;
   padding: 0 1em;
   box-sizing: border-box;
