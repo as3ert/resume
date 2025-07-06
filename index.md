@@ -33,13 +33,24 @@ Bowen Scholarship
 Dean's List
 
 ### Coursework
+Visual Computing & Computer Vision:
 
-Computer Architecture, Data Structures, Operating System, Computer Networks, Image Processing and Computer Vision, Database System, Software Engineering, Machine Learning, Parallel Programming, Optimization, Design and Analysis of Algorithms, Compiler Construction, etc.
+Real-Time Graphics, Image Processing and Computer Vision, Correspondence Problems in Computer Vision, Machine Learning, Deep Learning, Parallel Programming
+
+Algorithms & Systems:
+
+Design and Analysis of Algorithms, Optimization, Data Structures, Operating Systems, Compiler Construction
+
+Supporting Fundamentals:
+
+Computer Architecture, Software Engineering, Database Systems
 
 ## Skills
 
 `Programming`
-C/C++, Python, Java (Proficient); C#, JavaScript (Familiar)
+C/C++, Python, Java (Proficient)
+
+C#, JavaScript (Familiar)
 
 `Documentation`
 LaTeX, Markdown
