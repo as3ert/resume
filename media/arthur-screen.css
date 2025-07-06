@@ -1,4 +1,8 @@
-/* CSS Reset by Eric Meyer */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 :root {
 	--user-font: Avenir, Verdana, sans-serif;
   	--code-font: Monaco, Menlo, monospace;
@@ -35,11 +39,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 html, body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -47,36 +49,51 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+
+body {
+	font-family: normal;
 	font-weight: 400;
 	font-size: 100%;
+	line-height: 1.5em;
 	font-family: var(--user-font);
+	margin-top: 1em;
+	margin-left: 1em;
+	/* margin: 1em 17%; */
 }
-
-/* ========================== */
-/*          MAIN WRAP         */
-/* ========================== */
-
-#main {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 1em;
-	position: relative;
-}
-
-/* ========================== */
-/*         Typography         */
-/* ========================== */
 
 p {
 	position: relative;
 	left: 25%;
 	margin-bottom: 0.5em;
+	margin-right: 0;
 	width: 55%;
 }
 
 code {
-	font-family: var(--code-font);
+	font: normal normal;
 	font-size: 90%;
+	/*line-height: 1em;*/
+	font-family: var(--code-font);
 	color: #aaa;
 }
 
@@ -91,34 +108,48 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1.5em;
+	margin-top: 0em;
 }
 
+/*uncomment to get dashes in the list*/
+/*li:before {
+	content: "-";
+	position: relative;
+	left: -0.25em;
+}*/
+
 li {
+	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
+	/*color: #777;*/
 }
 
 li ul {
+	position: relative;
 	left: 0;
 	width: 100%;
 	margin-top: 0.25em;
 }
 
-h1, h2, h3, h4 {
-	font-family: var(--user-font);
+h1,h2,h3,h4 {
 	font-weight: 500;
+	font-family: var(--user-font);
+	width: 80%;
 }
 
 h1 {
 	text-align: left;
 	font-size: 3em;
 	line-height: 1.2em;
-	margin-left: 25%;
+	position: relative;
+	left: 25%;
+
 	font-variant: small-caps;
-	width: auto;
 }
 
-h1 + p {
+h1+p {
+	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
 }
@@ -127,45 +158,48 @@ h2 {
 	font-size: 1.5em;
 	color: #bc412b;
 	margin-top: 2em;
-	position: absolute;
-	right: 0;
-	width: 20%;
+	position: relative;
+	top: 0.9em;
 	text-align: right;
+	width: 20%;
+
 	font-variant: small-caps;
 }
 
 h3 {
 	font-size: 1.2em;
-	position: absolute;
-	right: 0;
-	width: 20%;
-	text-align: right;
 	line-height: 2em;
+	position: relative;
+	top: 1.5em;
+	text-align: right;
+	width: 20%;
+
 	font-variant: small-caps;
 }
 
 h4 {
 	font-weight: 400;
 	font-size: 1em;
-	position: absolute;
-	right: 0;
-	width: 20%;
-	text-align: right;
 	line-height: 2em;
+	position: relative;
+	top: 4em;
+	text-align: right;
+	width: 20%;
 }
 
 a {
 	color: inherit;
-	text-decoration: none;
+	/*text-decoration:none*/
 }
 
 a:hover {
-	color: #39f;
+	color:#39f
 }
 
 #webaddress {
 	margin-top: 1em;
-	margin-left: 25%;
+	position: relative;
+	left: 25%;
 	color: #bc412b;
 	font-family: var(--code-font);
 	font-size: 100%;
@@ -176,6 +210,7 @@ a:hover {
 }
 
 em {
+	/* font-weight: bold; */
 	font-style: italic;
 }
 
@@ -187,39 +222,68 @@ strong {
 	display: none;
 }
 
-/* ========================== */
-/*       Responsive Part      */
-/* ========================== */
-
 @media only screen and (max-width: 1024px) {
 	body {
-		overflow-x: hidden;
+	  overflow-x: hidden;
 	}
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+body > * {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+  
+/* Mobile styling, starting at iPad portrait size */
 @media only screen and (max-width: 768px) {
-	#main {
-		padding: 1em;
+	h1,
+	h2,
+	h3,
+	h4,
+	p,
+	ul,
+	code,
+	#webaddress {
+	  position: static;
+	  width: 100%;
+	  text-align: left;
 	}
-
-	h1, h2, h3, h4, p, ul, code, #webaddress {
-		position: static;
-		width: 100%;
-		text-align: left;
-		margin-left: 0;
+  
+	code {
+	  width: auto;
 	}
-
+  
 	h1 {
-		margin-bottom: 0.2em;
+	  margin-bottom: 0.1em;
 	}
-
+  
 	h2 {
-		margin-top: 1em;
+	  margin-top: 1em;
 	}
-
+  
+	body {
+		margin-top: 0;
+		margin-left: 0;
+	  padding: 1em;
+	}
+  
 	p code {
-		position: static;
-		display: block;
-		text-align: left;
+	  position: static;
+	  margin-right: auto;
+	  display: block;
+	  text-align: left;
 	}
 }
