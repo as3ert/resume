@@ -22,6 +22,11 @@
       src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
     }
 
+    @font-face {
+      font-family: 'Minecraft';
+      src: url('media/fonts/Minecraft.ttf') format('truetype');
+    }
+
     body, h1, h2, h3, h4, h5, h6, p, li, a {
       font-family: var(--user-font);
     }
@@ -54,20 +59,22 @@
     const btn = document.getElementById('fontToggle');
 
     const ICONS = {
-      default: "media/images/Book.png",
-      minecraft: "media/images/Enchanted_Book.png"
+      minecraft: "media/images/Book.png",
+      default: "media/images/Enchanted_Book.png"
     };
 
     const fonts = {
       default: {
-        user: "Avenir, Verdana, sans-serif",
-        code: "Monaco, Menlo, monospace",
-        icon: ICONS.minecraft 
+        // user: "Avenir, Verdana, sans-serif",
+        // code: "Monaco, Menlo, monospace",
+        user: "Minecraft",
+        code: "Minecraft",
+        icon: ICONS.default
       },
       minecraft: {
         user: "Minecraft-Enchantment",
         code: "Minecraft-Enchantment",
-        icon: ICONS.default
+        icon: ICONS.minecraft
       }
     };
 
