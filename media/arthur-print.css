@@ -11,7 +11,10 @@
 @font-face {
 	font-family: 'Minecraft-Enchantment';
 	src: url('media/fonts/Minecraft-Enchantment.ttf') format('truetype');
-	font-family: "Minecraft";
+}
+
+@font-face {
+	font-family: 'Minecraft';
 	src: url('media/fonts/Minecraft.ttf') format('truetype');
 }
 
