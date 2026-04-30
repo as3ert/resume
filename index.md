@@ -14,15 +14,16 @@ M.Sc. Student in Computer Science
 ## Education
 
 `Sep 2020 - Jun 2024`
-__The Chinese University of Hong Kong, Shenzhen__
+__The Chinese University of Hong Kong, Shenzhen__ — Shenzhen, China
 
 - B.Eng in Computer Science and Engineering
 - **GPA**: 3.393/4.0; **Major GPA**: 3.588/4.0
 
 `Oct 2024 - Present`
-__Universität Stuttgart__
+__Universität Stuttgart__ — Vaihingen Campus, Stuttgart, Germany
 
 - M.Sc. in Computer Science (Visual Computing Track)
+- **GPA**: 1.8/5.0 ("gut")
 
 ### Awards
 
@@ -33,63 +34,64 @@ Bowen Scholarship
 Dean's List
 
 ### Coursework
-Visual Computing & Computer Vision:
 
-Real-Time Graphics, Image Processing and Computer Vision, Correspondence Problems in Computer Vision, Machine Learning, Deep Learning, Parallel Programming
+`Universität Stuttgart`
+Real-Time Graphics (1.0), Practical Course Visual Computing (1.0), Correspondence Problems in Computer Vision (1.3), Deep Learning (1.3)
 
-Algorithms & Systems:
-
-Design and Analysis of Algorithms, Optimization, Data Structures, Operating Systems, Compiler Construction
-
-Supporting Fundamentals:
-
-Computer Architecture, Software Engineering, Database Systems
+`CUHK Shenzhen`
+Image Processing and Computer Vision, Machine Learning, Parallel Programming, Design and Analysis of Algorithms, Optimization, Data Structures, Operating Systems, Compiler Construction, Computer Architecture, Software Engineering, Database Systems
 
 ## Skills
 
 `Programming`
-C/C++, Python, Java (Proficient)
+C/C++, Python (Proficient); Java, C#, JavaScript (Familiar)
 
-C#, JavaScript (Familiar)
+`Graphics & Compute`
+Vulkan, OpenGL, GLSL, HLSL, CUDA, NVIDIA Falcor
+
+`Machine Learning`
+PyTorch
+
+`Tools`
+Git, Linux, Docker, FFmpeg
 
 `Documentation`
 LaTeX, Markdown
 
+## Languages
+
+`Mandarin`
+Native
+
+`English`
+Fluent (TOEFL: 98)
+
+`German`
+A2
+
 ## Projects
 
-`Jan 2024`
-<a href="https://github.com/as3ert/micro-compiler">__A Compiler for Micro Language__</a>
+`WS 2025/26`
+__Mœbius-Style Non-Photorealistic Renderer__ — Practical Course Visual Computing, Universität Stuttgart (Grade: 1.0)
 
-`Jan 2023 - May 2023`
-<a href="https://github.com/as3ert/CSC3170">__Database System Implementation with Front-End Integration__</a>
+- Real-time multi-pass OpenGL pipeline reinterpreting 3D scenes in Jean Giraud's comic aesthetic through toon shading with quantized tone bands, constant pixel-width stroke rendering, and paper-texture overlay
+- Dual-method silhouette extraction: screen-space depth/normal discontinuities vs. mesh adjacency-based front/back facing tests
+- Temporal coherence via contour polyline grouping and stroke ID tracking across frames, eliminating flicker under camera motion
 
-## Publication
+## Experience
 
-`Dec 2023`
-__A Hybrid Approach to Maze Generation Algorithms__
+`Nov 2025 - Present`
+__Research Assistant (HiWi)__ — VISUS, Universität Stuttgart
 
-Co-authors: **Guangxin Zhao**, Hao Gu, and Emma Cai
+Supervised by Prof. Dieter Schmalstieg and Dr. Guido Reina
 
-<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12941.toc;1294114">Proceedings Volume 12941, International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023)</a>; 1294114 (2023) <a href="https://doi.org/10.1117/12.3011553">DOI: 10.1117/12.3011553</a>
+- Implementing MPEG video streaming for the **Amulet** project (built on NVIDIA's **Falcor** framework) using NVIDIA NVENC, FFmpeg Vulkan Video Decoder, and NVcomp
 
-## Research
+`Oct 2025 - Present`
+__Research Project: 2D Gaussian Splatting for Forward-Facing Multi-view Cameras and Displays__ — Universität Stuttgart
 
-`Jun 2023 - Jul 2023`
-__Algorithms for Game Design__ (Leader of a Three-Person Group)
+Supervised by Dr. Shohei Mori
 
-`Remote`
-Supervised by Prof. Bill Nace from Carnegie Mellon University
+- Stabilized 2DGS training under narrow-baseline forward-facing setups by combining monocular depth priors with hemisphere-gated opacity, addressing depth-collapse failure modes
 
-## Internship
-
-`Aug 2022 - Sep 2022`
-__Ray Vision Software Technology (Nanjing) Co., Ltd.__
-
-`Nanjing, Jiangsu, China`
-Assistant Game Developer for Google Play platform
-
-## Interest
-
-Computer Science, Computer Graphics, Visual Computing, GPU Programming, etc.
-
-<h4 align="right" style="font-weight: normal; font-size: 0.9em;">Last updated: Jul 2025</h4>
+<h4 align="right" style="font-weight: normal; font-size: 0.9em;">Last updated: May 2026</h4>
