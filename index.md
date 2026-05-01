@@ -88,7 +88,7 @@ Supervised by Prof. Dieter Schmalstieg and Dr. Guido Reina
 - Implementing MPEG video streaming for the **Amulet** project (built on NVIDIA's **Falcor** framework) using NVIDIA NVENC, FFmpeg Vulkan Video Decoder, and NVcomp
 
 `Oct 2025 - Present`
-__Research Project: 2D Gaussian Splatting for Forward-Facing Multi-view Cameras and Displays__ — Universität Stuttgart
+__Research Project: 2D Gaussian Splatting (2DGS) for forward-facing multi-view rendering__ — Universität Stuttgart
 
 Supervised by Dr. Shohei Mori
 
